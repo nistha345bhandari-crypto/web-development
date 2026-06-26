@@ -56,13 +56,40 @@
             background-repeat: no-repeat;
             height: 30px;
         }
+        .head h1{
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 40%;
+            margin-right: 25%;
+
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+        }
+        .head{
+            
+            display: flex;
+            height: 80px;
+        }
+        .right button:hover{
+            background-color: rgb(253, 253, 118);
+            transition: 0.3s;
+            transform: scale(1.2);
+        }
     </style>
 <body>
-    <h1 style="gap: 100px; text-align: center;font-size:xx-large;font-family: Georgia, 'Times New Roman', Times, serif;">Glimra✨
+    <div class="head">
+    <h1 style="gap: 100px; text-align: center;font-size:xx-large;font-family: Georgia, 'Times New Roman', Times, serif;">Glimra✨</h1>
+    <div class="right">
     <input placeholder="🔍 search on Glimra" >
     <a href="sign.html"><button>Sign up</button></a>
-    <button>Add to cart  <spam>0</spam></button>
-    </h1>
+    <button>Add to cart  <span>0</span></button>
+    
+    </div>
+    </div>
     
     <marquee style="background-color: aqua;"><em>BE YOUR OWN KIND OF BEAUTY! GET YOUR AMAZING DEALS🎉🎀</em></marquee>
     <img src="./sale.png" width="1499" height="450">
