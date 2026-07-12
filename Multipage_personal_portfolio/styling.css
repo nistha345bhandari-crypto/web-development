@@ -1,0 +1,320 @@
+       *{
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(2, 2, 30);
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 0px;
+            background-color:rgba(2, 2, 39, 0.63) ;
+            border: 0px solid rgba(3, 3, 45, 0.63);
+            padding: 25px ;
+            height: 100px;
+            position: fixed;   
+            width:100%;
+            z-index: 100;
+               
+        }
+        .header h1{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            display: inline-block;
+            
+        }
+        nav a{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            text-decoration: none;
+            margin: 10px;
+            
+        }
+        nav a:hover{
+            transform:scale(20px);
+            transition: 2sec;
+            color: rgb(231, 231, 146);
+            
+        }
+        
+        .left{
+            color: #1e1b4b;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            font-weight: bold;
+            margin-top:1% ;
+            margin-left: 2%;
+            width:fit-content;
+            padding: 10px 10px;
+            border-radius: 30px;
+            background-color:rgba(225, 198, 255, 0.6);
+        }
+        
+        
+        .first h1{
+            margin-left: 2%;
+            margin-top: 5%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: white;
+
+
+        }
+        .first h2{
+            margin-left: 2%;
+            margin-top: 1%;
+            font-family:'Times New Roman', Times, serif;
+            font-size:large;
+            color: white;
+            padding: 0%;     
+                   
+        }
+        .first p{
+            margin-left: 2%;
+            margin-top: 1%;
+            font-family:'Times New Roman', Times, serif;
+            font-size:large;
+            color: white;
+            line-height: 120%;
+            
+
+        }
+        .firsts{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 100px;              /* Space between text and image */
+            padding: 20px 100px;
+            margin-bottom: 2%;
+            height: 100vh;
+
+        }
+        .right img{
+            border-radius:20px;
+            border:1px solid rgba(255,255,255,.1);
+            position: relative;
+            width: 380px;
+            height: 450px;
+            margin-left: 1%;
+            margin-top: -10px;
+            z-index: 1;
+            box-shadow: 0 20px 50px rgba(95,50,170,.45);
+
+        }
+        .dialog {
+            border:0 solid rgb(111, 63, 161) ;
+            border-radius: 20px;
+            width: 400px;
+            text-align:center;
+            padding: 15px 20px;
+            background-color:rgb(99, 64, 135) ;
+            margin-top: -80px;
+            right: 80%;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 15px 40px rgba(95,50,170,.45);          
+        }
+        .dialog h3{
+            color: white;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 5px 10px;
+            background-color: rgba(79, 33, 127,0);
+
+        }
+        .dialog h4{
+            color:rgb(158, 95, 225);
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(55, 16, 98, 0);
+            margin-top: 1%;
+            padding-right: 5px 10px;
+        }
+        .socialicons{
+            display: flex;
+            gap: 10px;
+        }
+        .socialicons img{
+            width: 70px;
+            height: 70px;
+            margin-top: 250%;
+        }
+        /* //aboutme */
+        .aboutme{
+            background-color:rgb(1, 1, 22) ;
+            height: 80vh;
+            margin-top: 80px;
+            padding: 150px;
+            
+            
+        }
+        .box{
+            border: 0 solid rgb(158, 95, 225);
+            color: #1e1b4b;
+            font-weight: bold;
+            font-size: large;
+            width: 90px;
+            padding-left: 0.5%;
+            align-items: center;
+            margin-left: 20%;
+            background-color:rgba(202, 171, 235,0.6);
+            border-radius: 30px;
+        }
+        .aboutme h1{
+            margin-top:15px;
+            font-size:70px;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+        .aboutme h2{
+            margin-top:30px;
+            font-size:70px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            margin-top: 0;
+            font-weight: 900;
+        }
+        .aboutme span{
+            color:rgb(227, 198, 255) ;
+            
+        }
+        .aboutme p{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+        .aboutmee{
+            margin-top: 80px;
+            padding: 90px 200px;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            
+            
+        }
+        .lefte img{
+            border: 1px solid #1e1b4b;
+            border-radius: 50%;
+            box-shadow: 0 20px 50px rgba(95,50,170,.45);
+            margin-top: 40px;
+
+        }
+        .righte h1{
+            color: rgb(227, 198, 255);
+            margin-top: -20px;
+            margin-left: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            
+        }
+        .righte p{
+            color: white;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            padding: 10px;
+        }
+        .boxe{
+            border: 0 solid rgba(202, 171, 235,0.6);
+            border-radius: 20px;
+            background-color: rgb(1, 1, 22);
+           padding: 50px 100px;
+           font-family: 'Times New Roman', Times, serif;
+           width: 80%;
+           margin-left: 10%;
+           height: 40vh;
+           margin-bottom: 20%;
+        }
+        .boxe h1{
+            color: white;
+            font-size: xx-large;
+
+        }
+        .boxe p{
+            color: white;
+            font-size: large;
+            margin-top: 10px;
+        }
+        .boxe button{
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            border: 0 solid rgb(227, 198, 255);
+            border-radius: 20px;
+            padding: 5px 5px;
+            background-color:rgba(225, 198, 255, 0.6) ;
+            margin-left: 90%;
+            margin-top: 5%;
+            font-weight: bold;
+        }
+        .skills{
+            height: 80vh;
+            font-family: 'Times New Roman', Times, serif;
+            display: grid;
+            grid-template-columns: repeat(3, 250px); 
+            justify-content: center;
+            grid-template-rows: repeat(2, 350px); 
+            gap: 20px;
+            row-gap: 0;
+            
+            
+            
+        }
+        .skill{
+            border: 0px solid rgb(194, 194, 213);
+            border-radius: 10%;
+            background-color: rgb(1, 1, 18);
+            
+            color: white;
+            width: 100%;
+            font-size: small;
+            font-weight: lighter;
+             box-shadow: 0 20px 50px rgba(96, 50, 170, 0.196);
+             text-align: center;
+             padding: 10%;
+             height:80%;
+             margin: 0;
+        }
+        .skill h1{
+            font-size: x-large;
+            padding: 10%;
+            color: rgb(227, 198, 255);
+            
+        }
+        .skill p{
+            font-size: medium;
+            margin-top: 10%;
+        }
+        .heading h1{
+            font-size:xx-large;
+            color: white;
+             text-align: center;
+        }
+        .heading p{
+            font-size:larger;
+            color: white;
+             text-align: center;
+             margin-bottom: 5%;
+        }
+
+
+
+        
+        
+
+
+
+        
+        
