@@ -2,12 +2,14 @@
              margin: 0;
              padding: 0;
              box-sizing: border-box;
+
         }
 
         body{
             background-color: rgb(2, 2, 30);
             font-family: 'Times New Roman', Times, serif;
             max-height: 100vh;
+            
             
         }
         .header{
@@ -22,6 +24,7 @@
             position: fixed;   
             width:100%;
             z-index: 100;
+            
                
         }
         .header h1{
@@ -31,16 +34,20 @@
             display: inline-block;
             
         }
+        .nav{
+            flex-wrap: wrap;
+        }
         nav a{
             color: white;
             font-family: 'Times New Roman', Times, serif;
             font-size: large;
             text-decoration: none;
             margin: 10px;
+            flex-direction: column;
             
         }
         nav a:hover{
-            transform:scale(20px);
+            transform:scale(1.05);
             transition: 2sec;
             color: rgb(231, 231, 146);
             
@@ -101,13 +108,14 @@
         .right img{
             border-radius:20px;
             border:1px solid rgba(255,255,255,.1);
-            position: relative;
+            
             width: 380px;
             height: 450px;
             margin-left: 1%;
             margin-top: 90px;
             z-index: 1;
             box-shadow: 0 20px 50px rgba(95,50,170,.45);
+            flex-wrap: wrap;
 
         }
         .dialog {
@@ -144,11 +152,13 @@
         .socialicons{
             display: flex;
             gap: 10px;
+            flex-wrap: wrap;
         }
         .socialicons img{
-            width: 70px;
+            width: auto;
             height: 70px;
-            margin-top: 250%;
+            margin-top: 40%;
+            
         }
         /* //aboutme */
         .aboutme{
@@ -533,7 +543,7 @@
 
         }
         .tw a:hover{
-            transform:scale(20px);
+            transform:scale(1.05);
             transition: 2sec;
             color: rgb(238, 238, 137);
         }
@@ -544,7 +554,7 @@
             
         }
         .icons img:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
                 transition: 2sec;
 
             }
@@ -573,22 +583,22 @@
             
         }
             .cont:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
                 transition: 2sec;
 
             }
             .boxe button:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
                 transition: 2sec;
 
             }
             .socialicons img:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
                 transition: 2sec;
 
             }
             .skull button:hover{
-                transform: scale(0.9);
+                transform: scale(1.05);
                 transition: 2sec;
 
             }
