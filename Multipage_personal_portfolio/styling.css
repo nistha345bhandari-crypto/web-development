@@ -7,6 +7,7 @@
         body{
             background-color: rgb(2, 2, 30);
             font-family: 'Times New Roman', Times, serif;
+            max-height: 100vh;
             
         }
         .header{
@@ -50,7 +51,7 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: large;
             font-weight: bold;
-            margin-top:1% ;
+            margin-top:10% ;
             margin-left: 2%;
             width:fit-content;
             padding: 10px 10px;
@@ -104,7 +105,7 @@
             width: 380px;
             height: 450px;
             margin-left: 1%;
-            margin-top: -10px;
+            margin-top: 90px;
             z-index: 1;
             box-shadow: 0 20px 50px rgba(95,50,170,.45);
 
@@ -132,7 +133,7 @@
 
         }
         .dialog h4{
-            color:rgb(158, 95, 225);
+            color:#2f074d;
             font-size: xx-large;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
@@ -196,11 +197,11 @@
         }
         .aboutmee{
             margin-top: 80px;
-            padding: 90px 200px;
+            padding: 90px 120px;
             height: 100vh;
             display: flex;
             justify-content: space-between;
-            gap: 10px;
+            gap: 20px;
             
             
         }
@@ -208,7 +209,8 @@
             border: 1px solid #1e1b4b;
             border-radius: 50%;
             box-shadow: 0 20px 50px rgba(95,50,170,.45);
-            margin-top: 40px;
+            margin-top: 50px;
+            
 
         }
         .righte h1{
@@ -225,7 +227,8 @@
             margin-top: 20px;
             font-family: 'Times New Roman', Times, serif;
             font-size: large;
-            padding: 10px;
+            padding: 30px;
+            
         }
         .boxe{
             border: 0 solid rgba(202, 171, 235,0.6);
@@ -236,7 +239,7 @@
            width: 80%;
            margin-left: 10%;
            height: 40vh;
-           margin-bottom: 20%;
+           margin-bottom: 8%;
         }
         .boxe h1{
             color: white;
@@ -259,6 +262,7 @@
             margin-top: 5%;
             font-weight: bold;
         }
+        
         .skills{
             height: 80vh;
             font-family: 'Times New Roman', Times, serif;
@@ -267,15 +271,11 @@
             justify-content: center;
             grid-template-rows: repeat(2, 350px); 
             gap: 20px;
-            row-gap: 0;
-            
-            
-            
-        }
+           }
         .skill{
             border: 0px solid rgb(194, 194, 213);
             border-radius: 10%;
-            background-color: rgb(1, 1, 18);
+            background-color: rgba(1, 1, 18, 0.019);
             
             color: white;
             width: 100%;
@@ -297,6 +297,13 @@
             font-size: medium;
             margin-top: 10%;
         }
+        .mini{
+            margin-bottom: 180px;
+        }
+        .heading{
+            padding-top: 140px;
+        
+        }
         .heading h1{
             font-size:xx-large;
             color: white;
@@ -308,7 +315,295 @@
              text-align: center;
              margin-bottom: 5%;
         }
+        
+        .head h1{
+            color: white;
+            text-align: center;
+        }
+        .skull {
+            border: 5px solid rgba(32, 13, 62, 0.296);
+            border-radius: 12%;
+            background-color: rgba(1, 1, 18,0.019);
+            color: white;
+            width: 150%;
+            font-size: small;
+            font-weight: lighter;
+             box-shadow: 0 20px 50px rgba(96, 50, 170, 0.086);
+             text-align: center;
+             padding: 0%;
+             height:160%;
+             margin: 0;
+            margin-bottom: 15px;
 
+            text-align: center;
+        }
+        .skull h1{
+            font-size: x-large;
+            padding: 9%;
+            color: rgb(227, 198, 255);
+            margin-top: 5%;
+        }
+        .projects{
+            height: 80vh;
+            margin-top: 5%;
+
+            display: grid;
+            grid-template-columns: repeat(3, 250px); 
+            justify-content: center;
+            grid-template-rows: repeat(2, 350px); 
+            gap: 150px;
+        }
+        .skull p{
+            font-size: medium;
+            margin-top:6%;
+            padding-bottom: 10px;
+            padding: 2%;
+        }
+        .skull button{
+            border-radius: 15px;
+            padding: 2%;
+            width: 100px;
+            margin-top: 5%;
+            text-align: center;
+            background-color: rgb(227, 198, 255);
+        }
+        .skull img{
+            width:100%;
+            height:180px;
+            object-fit:cover;
+            
+            filter: brightness(70%)contrast(100%);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2,180px);
+            justify-content: center;
+            font-size: medium;
+            font-weight: lighter;
+            row-gap: 0px;
+            padding: 0;
+        }
+        .features span{
+            font-size: medium;
+            font-weight: lighter;
+            margin-top: 3%;
+        }
+        .sandp{
+            height: 100vh;
+            margin-bottom: 69%;
+        }
+        .hireme{
+            display: flex;
+            gap: 200px;
+
+        }
+        .hireme{
+            margin-bottom: 1%;
+            border: 0px solid rgba(252, 252, 252, 0.296);
+            
+        }
+        .hiremebox {
+            border: 0 solid rgba(32, 13, 62, 0.296);
+            background-color: rgba(1, 1, 18,0.019);
+            height: 100vh;
+            margin-top: 6%;
+            padding: 100px 40px;
+
+        }
+        .hiremebox h1{
+            color: white;
+            border: 2px solid rgba(32, 13, 62, 0.447);
+            border-radius: 50%;
+            background-color: rgba(2, 2, 21, 0.73);
+            width: 250px;
+            height: 250px;
+            padding: 100px 30px;
+            text-align: center;
+             box-shadow: 0 20px 50px rgba(96, 50, 170, 0.086);
+            color: rgb(227, 198, 255);
+
+
+        }
+        .abouthiring{
+            margin-bottom: 10%;
+        }
+        .abouthiring h1{
+            color: rgb(227, 198, 255);
+            margin-top: 25%;           
+        }
+        .abouthiring p{
+            color: white;
+            font-size: medium;
+            padding-top: 30px;
+            padding-left: 10px;
+        }
+        .one{
+            display: flex;
+            gap: 40px;
+            margin-top: 6%;
+        }
+        .ones {
+            border: 0px solid rgba(32, 13, 62, 0.296);
+            border-radius: 20%;
+            background-color: rgba(1, 1, 18,0.019);
+            color: white;
+            width: 200px;
+            font-size: small;
+            font-weight: lighter;
+             box-shadow: 0 20px 50px rgba(96, 50, 170, 0.086);
+             text-align: center;
+             padding: 0%;
+             height:100px;
+             margin: 0;
+            margin-bottom: 15px;
+            text-align: center;
+
+        }
+        .ones h1{
+            font-size: x-large;
+            padding: 6%;
+            color: rgb(227, 198, 255);
+            margin-top: 5%;
+        }
+        .ones p{
+            margin-top: -19px;
+            color: rgb(227, 198, 255);
+        }
+        .contact{
+            border: 1px solid rgba(32, 13, 62, 0.447);
+            /* border-radius: 20px; */
+            width: 1000px;
+            height: 500px;
+            margin-left:240px ;
+            background-color: rgba(1, 1, 18, 0.738);
+             box-shadow: 0 20px 50px rgba(96, 50, 170, 0.341);
+             margin-top: 1%;
+             margin-bottom: 10%;
+             
+        }
+        .contacts{
+            padding-top: 10%;
+        }
+        .contact h1{
+            color: rgb(227, 198, 255);
+            padding: 80px 30px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        .contact p{
+            color: white;
+            padding: 2px 30px;
+            font-size: larger;
+        }
+        .contact a{
+            color: white;
+            text-decoration: none;
+            font-size: large;
+            
+        }
+        .contact a:hover{
+            transform:scale(20px);
+            transition: 2sec;
+            color: rgb(231, 231, 146);
+        }
+        .foot{
+            border: 0px solid white;
+            height: 40vh;
+            padding: 80px 200px;
+            display: flex;
+            gap: 200px;
+            background-color:rgb(1, 1, 22) ;
+
+            
+            
+        }
+        .foot h1{
+            color:rgb(227, 198, 255) ;
+            font-size: large;
+
+        }
+        .foot p{
+            color: white;
+            padding-top: 15px;
+        }
+        .tw a{
+            text-decoration: none;
+            color: white;
+
+
+        }
+        .tw a:hover{
+            transform:scale(20px);
+            transition: 2sec;
+            color: rgb(238, 238, 137);
+        }
+        .icons img{
+            width: 50px;
+            height: 50px;
+            margin-top: 250%;
+            
+        }
+        .icons img:hover{
+                transform: scale(1.1);
+                transition: 2sec;
+
+            }
+        .icons{
+            display: flex;
+            gap: 10px;
+            margin-top: -90px;
+            margin-right: 50px;
+        }
+        .cont{
+            border: 0px solid white;
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 40px;
+            
+            
+
+        }
+        .cont a{
+            text-decoration: none;
+            color: #1e1b4b;
+            background-color: rgba(225, 198, 255, 0.6);
+            padding:10px 60px;
+            font-size: medium;
+            font-weight: bold;
+            
+        }
+            .cont:hover{
+                transform: scale(1.1);
+                transition: 2sec;
+
+            }
+            .boxe button:hover{
+                transform: scale(1.1);
+                transition: 2sec;
+
+            }
+            .socialicons img:hover{
+                transform: scale(1.1);
+                transition: 2sec;
+
+            }
+            .skull button:hover{
+                transform: scale(0.9);
+                transition: 2sec;
+
+            }
+            .rights{
+                background-color:rgb(1, 1, 22) ;
+                height: 100px;
+            }
+            .rights h4{
+                color: white;
+                margin-left: 190px;
+                padding-top: 30px;
+                
+            }
+            
+        
 
 
         
