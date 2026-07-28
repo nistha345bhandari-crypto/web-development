@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">login</button>
+    <p id="para"> this is a para</p>
+    <div class="xyz">
+        <h1>product1</h1>
+        <p>description1</p>
+    </div>
+    <div class="xyz">
+        <h1>product2</h1>
+        <p>description2</p>
+
+    </div>
+    <ul id="abc">
+
+        <li>Gym</li>
+
+    </ul>
+    <script>
+        //update text content
+        const btn=document.getElementById("btn")
+        console.log(btn.textContent)
+        btn.textContent="logout"
+        //update tags
+          const para=document.getElementById("para")
+          console.log(para.textContent)
+          para.innerHTML=`
+          <h1> this is heading</h1>
+          <button>shop</button>
+
+        `
+        //styling
+        const div=document.getElementsByClassName("xyz")
+
+
+        div[0].style.backgroundColor="red"
+        div[0].style.fontSize="20px"
+        //or use loop till div.length to acess all in one time
+
+        //create elemnt
+        const abc=document.getElementById("abc")
+        const list=document.createElement("li")
+        list.textContent="office"
+
+        abc.appendChild(list)
+
+
+    </script>
+</body>
+</html>

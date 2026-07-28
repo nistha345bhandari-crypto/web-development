@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <p id="xyz">hi there!</p>
+   
+        <div class="myC">This is Div - 0</div>
+        <div class="myC">This is Div - 1</div>
+        <p>normal text 1 </p>
+        <p>normal text 2 </p>
+
+         <button>login</button>
+
+    <script>
+        //by id
+        const paragraph=document.getElementById("xyz")
+        console.log(paragraph.textContent)
+        //by class
+        const cont =document.getElementsByClassName("myC")
+        console.log(cont)
+        console.log(cont[0].textContent)
+        //by tagname
+        const nor=document.getElementsByTagName("p")
+        console.log(nor[1].textContent)
+
+        const no=document.getElementsByTagName("button")
+        console.log(no[0].textContent)
+
+        //query selector
+        const query=document.querySelector(".myC")
+        console.log(query)
+        const q=document.querySelectorAll(".myC")
+        console.log(q)
+
+    </script>
+</body>
+</html>
